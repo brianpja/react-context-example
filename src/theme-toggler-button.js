@@ -5,7 +5,7 @@ function ThemeTogglerButton() {
   // receives theme and toggleTheme function
   return (
     <ThemeContext.Consumer>
-      {({theme, toggleTheme}) => (
+      { ({ theme, toggleTheme }) => (
         <button
           onClick={toggleTheme}
           style={ {backgroundColor: theme.background} }>
